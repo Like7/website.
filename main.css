@@ -43,8 +43,8 @@ body {
 }
 .container {
 	background-color:#495568;
-	margin-left:400px;
-	margin-right:400px;
+	margin-left:250px;
+	margin-right:250px;
 	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
 	height:900px;
 	border-left:9px solid #748299;
