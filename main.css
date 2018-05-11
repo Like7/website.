@@ -1,0 +1,143 @@
+html {
+	padding:0;
+	margin:0;
+}
+	
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0px 0px 0px 50px;
+	overflow:hidden;
+	background-color:#4d575b;
+	border-top:7px solid #6f7e84;
+	box-shadow:0 4px 7px 0px rgba(0,0,0,0.2);
+}
+
+li {
+	float:left;
+}
+
+li a, .dbtn {
+	display:inline-block;
+	color: #d4dee2;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+	font-family:verdana;
+	font-size:23px;
+}
+
+li a:hover, .drop:hover .dbtn {
+	background-color:#6f7e84;
+	color:#dce5e8;
+	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+li.drop {
+	display:inline-block;
+}
+
+.drcont {
+	display:none;
+	position:absolute;
+	background-color:#6f7e84;
+	width:124px;
+	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index:1;
+}
+
+.drcont a {
+	color:#d4dee2;
+	padding:12px 16px;
+	text-decoration:none;
+	display:block;
+	text-align:left;
+	font-size:19px;
+}
+
+.drcont a:hover {
+	background-color:#849196;
+	box-shadow:none;
+}
+
+.drop:hover .drcont {
+	display:block;
+}
+
+li, a {
+	user-select:none;
+}
+
+.fd {
+	right:20px;
+	position:absolute;
+}
+
+body {
+	background-color:#70787C;
+	margin:0;
+}
+.container {
+	background-color:#495568;
+	margin-left:400px;
+	margin-right:400px;
+	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+	height:900px;
+	border-left:9px solid #748299;
+	border-right:9px solid #748299;
+	padding-left:70px;
+	padding-right:70px;
+	margin-bottom:0;
+	padding-top:13px;
+	position:relative;
+	z-index:-1;
+}
+
+p {
+	font-family:verdana;
+	font-size:20px;
+	color:##7d93b7;
+}
+
+.h1 {
+	font-family:Trebuchet MS;
+	text-align:center;
+	font-size:37px;
+	color:#cbd8ed;
+	padding: 0;
+	margin: 0;
+} 
+
+
+.thm2 {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 47px;
+    height: 38px;
+    background-color: #495777;
+    bottom: 23px;
+    right: 0px;
+    position: fixed;
+    box-shadow: 0px 8px 16px 1px rgba(0,0,0,0.2);
+    z-index: 2;	
+    transtition: 1s;
+    transition-timing-function: ease;
+}
+
+.foot {
+	box-sizing:border-box;
+	position:absolute;
+	height:50px;
+	width:100%;
+	background-color:#4d575b;
+	padding:10px 15px 5px 15px;
+	margin:0;
+	box-shadow:-3px -2px 7px 0px rgba(0,0,0,0.2);
+	border-bottom:7px solid #6f7e84;
+}
+
+.thm2:hover {
+	width: 120px;
+}
+
+
