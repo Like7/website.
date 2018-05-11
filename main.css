@@ -104,4 +104,10 @@ p {
 	width: 120px;
 }
 
+.circ {
+	height:60px;
+	width:60px;
+	radius:50%;
+	color: #70787C;
+}
 
