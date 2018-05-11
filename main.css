@@ -101,5 +101,6 @@ p {
     bottom: 150px;
     position: fixed;
     left: 300px;
+    z-index: 2;
 }
 
