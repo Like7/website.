@@ -106,9 +106,10 @@ p {
     cursor:pointer;
 }
 
-.point {
-	height:30px;
-	width: 30px;
+.point {	
+	font-size: 30px;
+	border:none;
+	padding 15px;
 }
 
 
