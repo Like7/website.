@@ -103,5 +103,6 @@ p {
     position: fixed;
     left: 300px;
     z-index: 2;
+    cursor:pointer;
 }
 
