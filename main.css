@@ -104,12 +104,9 @@ p {
     left: 300px;
     z-index: 2;
     cursor:pointer;
-}
-
-.point {	
-	font-size: 30px;
-	border:none;
-	padding 15px;
+    font-size: 30px;
+    border:none
+    padding 15px;
 }
 
 
