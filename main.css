@@ -106,3 +106,9 @@ p {
     cursor:pointer;
 }
 
+.point {
+	height:30px;
+	width: 30px;
+}
+
+
