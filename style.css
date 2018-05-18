@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Points';
-  src:  url('./fonts/Points.eot?dwycl0');
-  src:  url('./fonts/Points.eot?dwycl0#iefix') format('embedded-opentype'),
-    url('./fonts/Points.ttf?dwycl0') format('truetype'),
-    url('./fonts/Points.woff?dwycl0') format('woff'),
-    url('./fonts/Points.svg?dwycl0#Points') format('svg');
+  src:  url('./fonts/Points.eot');
+  src:  url('./fonts/Points.eot') format('embedded-opentype'),
+    url('./fonts/Points.ttf') format('truetype'),
+    url('./fonts/Points.woff') format('woff'),
+    url('./fonts/Points.svg) format('svg');
   font-weight: normal;
   font-style: normal;
 }
