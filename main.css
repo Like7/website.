@@ -109,4 +109,12 @@ p {
     padding 15px;
 }
 
-
+.testpoint, .testpointclick {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  stroke-width: 0;
+  font-size:50px;
+  stroke: currentColor;
+  fill: currentColor;
+}
