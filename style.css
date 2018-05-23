@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Points';
-  src:  url('https://i.icomoon.io/public/temp/c5e7af86b1/UntitledProject/Points.eot?rg0hsb');
-  src:  url('https://i.icomoon.io/public/temp/c5e7af86b1/UntitledProject/Points.eot?rg0hsb#iefix') format('embedded-opentype'),
-    url('https://i.icomoon.io/public/temp/c5e7af86b1/UntitledProject/Points.ttf?rg0hsb') format('truetype'),
-    url('https://i.icomoon.io/public/temp/c5e7af86b1/UntitledProject/Points.woff?rg0hsb') format('woff'),
+  src:  url('./iconmoon.eot?rg0hsb');
+  src:  url('./iconmoon.eot?rg0hsb#iefix') format('embedded-opentype'),
+    url('./icomoon.ttf?rg0hsb') format('truetype'),
+    url('./iconmoon.woff?rg0hsb') format('woff'),
     url('https://i.icomoon.io/public/temp/c5e7af86b1/UntitledProject/Points.svg?rg0hsb#Points') format('svg');
   font-weight: normal;
   font-style: normal;
