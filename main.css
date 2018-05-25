@@ -120,4 +120,7 @@ p {
 }
 
 .thms {
+    right: -49px;
+    position: relative;
+    bottom: -10px;
 }
