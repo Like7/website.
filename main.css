@@ -110,11 +110,13 @@ p {
 }
 
 .icon {
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
-  font-size:50px;
-  color:blue;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    font-size: 50px;
+    color: white;
+    width: 1em;
+    height: 1em;
 }
 
 .thms {
