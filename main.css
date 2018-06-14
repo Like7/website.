@@ -107,6 +107,7 @@ p {
     font-size: 30px;
     border:none;
     padding 15px;
+    animation: test 1.4s infinite;
 }
 
 .icon {
@@ -115,9 +116,9 @@ p {
     fill: currentColor;
     font-size: 50px;
     color: white;
-    width: 46px;
+    width: 45px;
     height: 43px;
-    top: 9px;
+    top:9px;
     position: absolute;
     right: 8px;
 }
@@ -132,10 +133,24 @@ p {
 	box-shadow: 0px 0px 20px 7px rgba(0,0,0,0.2);
 }
 
-.icon#point{
-	animation:1s poit infinte;
+.icon#click{
+	animation: 1s poit infinite;
 }
 
 @keyframes poit {
-	50% {opacity:50}
+	from {opacity:0}
+	to {opacity:100}
+}
+
+.icon#point {
+	animation: 1s clck infinite;
+}
+
+@keyframes clck {
+	from {height:43;width:46;}
+	to {height:46;width:49;}
+}
+
+@keyframes test {
+	50% {transform:scale(1.2);}
 }
