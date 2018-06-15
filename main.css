@@ -140,6 +140,7 @@ p {
 @keyframes poit {
 	from {opacity:0}
 	to {opacity:100}
+}
 
 @keyframes test {
 	50% {transform:scale(1.13);}
