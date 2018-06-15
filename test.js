@@ -3,5 +3,5 @@ function test() {
    //face.style.opacity = "0";
    //var poo = document.getElementById("circ1");
    //poo.style.animationPlayState="paused";
-   alert("hi")
+   alert("hi");
 }
