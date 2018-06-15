@@ -1,3 +1,3 @@
 function test() {
-   document.getElementById("circ1")style.animationPlayState="paused";
+   document.getElementById("circ1").style.animationPlayState="paused";
 }
