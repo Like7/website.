@@ -146,11 +146,11 @@ p {
 	animation: 1s clck infinite;
 }
 
-@keyframes clck {
-	from {height:43;width:46;}
-	to {height:46;width:49;}
-}
 
 @keyframes test {
-	50% {transform:scale(1.2);}
+	50% {transform:scale(1.13);}
+}
+
+.icon:active {
+	opacity:0;
 }
