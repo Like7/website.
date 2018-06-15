@@ -1,5 +1,6 @@
 function test() {
-   document.getElementById("icons").style.opacity = "0";
-   alert("hi");
-   document.getElementById("circ").style.animationPlayState="paused";
+   var face = document.getElementById("icons");
+   face.style.opacity = "0";
+   var poo = document.getElementById("circ");
+   poo.style.animationPlayState="paused";
 }
