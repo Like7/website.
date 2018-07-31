@@ -134,12 +134,11 @@ p {
 }
 
 .icon#click {
-	animation:1s poit infinite;
+	animation:2s poit ease-in-out infinite;
 }
 
 @keyframes poit {
-	from {opacity:0}
-	to {opacity:100}
+	50% {opacity:0}
 }
 
 @keyframes test {
