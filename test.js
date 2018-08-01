@@ -3,5 +3,5 @@ function test() {
 }
 
 function opa() {
-   document.getElementbyId("point", "click").style.opacity="0";
+   document.getElementbyId("ico").style.opacity="0";
 }
